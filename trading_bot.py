@@ -202,7 +202,7 @@ class TradingBot:
         print(f"💹 Lucro: R$ {lucro:.2f} ({lucro_pct:+.2f}%)")
         return True
 
-            def estrategia_cruzamento_medias(self, ticker, periodo_curto=20, periodo_longo=50):
+    def             estrategia_cruzamento_medias(self, ticker, periodo_curto=20, periodo_longo=50):
         """
         Estratégia baseada no cruzamento de médias móveis.
         Compra quando média curta cruza acima da longa.
